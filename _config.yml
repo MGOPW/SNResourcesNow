@@ -7,35 +7,51 @@
 #
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
+title: ResourcesNow
+title_separator: "|"
+subtitle: Because I can't organize my bookmarks
+logo: "/assets/images/logo.png"
+# Repo info
+repository: MGOPW/SNResourcesNow
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
-minimal_mistakes_skin: default
+  Simple index for all ServiceNow resources created by it's amazing community.
+minimal_mistakes_skin: "mint"
 search: true
-
-# Build settings
+# Conversion
 markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
 remote_theme: mmistakes/minimal-mistakes
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
+# paginate: 5 # amount of posts to show
+# paginate_path: /page:num/
+timezone: America/New_York # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 include:
   - _pages
-
+  - assets
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
@@ -47,7 +63,6 @@ include:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
 # Plugins (previously gems:)
 plugins:
   - jekyll-paginate
@@ -56,36 +71,33 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
-
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
 author:
-  name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  name   : "MGOPW"
+  avatar : "/assets/images/mgopw.png"
+  bio    : "She/Her || 2021 ServiceNow Developer MVP."
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
-
+      url: "https://github.com/mgopw"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter"
+      url: "https://twitter.com/theRealMGOPW"  
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+    - label: "Contribute"
+      icon: "fas fa-file-alt"
+      url: "https://github.com/MGOPW/SNResourcesNow"
+    - label: "SN Devs Slack"
+      icon: "fas fa-slack"
+      url: "https://sndevs.com/"
 
 defaults:
   # _posts
@@ -105,7 +117,75 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: true
+      author_profile: false  
+      excerpt: ""
+      sidebar:
+        nav: "side"
+  # _docs
+  - scope:
+      path: "_docs"
+      type: docs
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "side"
+      excerpt: ""
+  # _blogs
+  - scope:
+      path: "_blogs"
+      type: blogs
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "side"
+      excerpt: ""
+  # _misc
+  - scope:
+      path: "_misc"
+      type: misc
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "side"
+      excerpt: ""
+  # _official
+  - scope:
+      path: "_official"
+      type: official
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "side"
+      excerpt: ""
+  # _repos
+  - scope:
+      path: "_repos"
+      type: repos
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "side"
+      excerpt: ""
 
 category_archive:
   type: liquid
@@ -113,3 +193,23 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+  
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:path/
+  blogs:
+    output: true
+    permalink: /:collection/:path/
+  repos:
+    output: true
+    permalink: /:collection/:path/
+  misc:
+    output: true
+    permalink: /:collection/:path/
+  official:
+    output: true
+    permalink: /:collection/:path/ 
+
+    
+  

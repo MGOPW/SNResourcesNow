@@ -1,9 +1,33 @@
 main:
-  - title: "Posts"
-    url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
+  - title: "Home"
+    url: /
   - title: "About"
     url: /about/
+
+side: 
+  - title: START HERE
+    children:
+      - title: "What this is"
+        url: /what
+      - title: "How can I Contribute"
+        url: /contributing
+  - title: BLOGS
+    children:
+      - title: "Main"
+        url: /blogs/main
+  - title: REPOS
+    children:
+      - title: "Main"
+        url: /repos/main
+  - title: OFFICIAL
+    children:
+      - title: "Main"
+        url: /official/main
+      - title: "Academies"
+        url: /official/academies
+      - title: "Office Hours"
+        url: /official/office-hours
+  - title: MISC
+    children:
+      - title: "Main"
+        url: /misc/main
