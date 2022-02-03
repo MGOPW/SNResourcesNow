@@ -1,9 +1,11 @@
-name: Build and deploy Jekyll site to GitHub Pages
+name: GH Pages CI
 
 on:
   push:
     branches:
       - master
+    paths-ignore:
+      - "docs/**"
 
 jobs:
   build-deploy:
