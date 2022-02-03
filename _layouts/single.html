@@ -55,6 +55,12 @@ layout: default
       </footer>
 
       {% if page.share %}{% include social-share.html %}{% endif %}
+      {% if page.applause_button %}
+        <!-- add the button! -->
+        <applause-button 
+          style="width: 58px; height: 58px;"
+          url="{{ site.url }}{{ page.url }}" />
+        {% endif %}
 
       {% include post_pagination.html %}
     </div>

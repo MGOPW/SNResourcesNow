@@ -112,9 +112,10 @@ defaults:
       read_time: true
       comments: true
       share: true
-      related: true
+      related: false
       sidebar:
         nav: "side"
+      applause_button: true
   # _pages
   - scope:
       path: "_pages"
@@ -124,9 +125,10 @@ defaults:
       author_profile: false
       comments: false
       share: false
-      related: true
+      related: false
       sidebar:
         nav: "side"
+      applause_button: false
   # _blogs
   - scope:
       path: "_blogs"
@@ -136,9 +138,10 @@ defaults:
       author_profile: false
       comments: true
       share: true
-      related: true
+      related: false
       sidebar:
         nav: "side"
+      applause_button: true
   # _repos
   - scope:
       path: "_repos"
@@ -148,9 +151,10 @@ defaults:
       author_profile: false
       comments: true
       share: true
-      related: true
+      related: false
       sidebar:
         nav: "side"
+      applause_button: true
   # _official
   - scope:
       path: "_official"
@@ -160,9 +164,10 @@ defaults:
       author_profile: false
       comments: true
       share: true
-      related: true
+      related: false
       sidebar:
         nav: "side"
+      applause_button: true
   # _podcasts
   - scope:
       path: "_podcasts"
@@ -172,9 +177,10 @@ defaults:
       author_profile: false
       comments: true
       share: true
-      related: true
+      related: false
       sidebar:
         nav: "side"
+      applause_button: true
   # _people
   - scope:
       path: "_people"
@@ -184,9 +190,10 @@ defaults:
       author_profile: false
       comments: true
       share: true
-      related: true
+      related: false
       sidebar:
         nav: "side"
+      applause_button: true
   # _misc
   - scope:
       path: "_misc"
@@ -196,9 +203,10 @@ defaults:
       author_profile: false
       comments: true
       share: true
-      related: true
+      related: false
       sidebar:
         nav: "side"
+      applause_button: true
 
 category_archive:
   type: liquid
@@ -243,3 +251,7 @@ analytics:
   google:
     tracking_id: "G-EJK7LDVCWX"
     anonymize_ip: false # default
+
+head_scripts:
+  - https://unpkg.com/applause-button/dist/applause-button.js
+  - https://unpkg.com/applause-button/dist/applause-button.css
