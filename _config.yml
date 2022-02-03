@@ -29,7 +29,7 @@ highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-remote_theme: mmistakes/minimal-mistakes
+theme: minimal-mistakes-jekyll
 # Markdown Processing
 kramdown:
   input: GFM
