@@ -45,7 +45,7 @@ layout: default
         {{ content }}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
-
+  
       <footer class="page__meta">
         {% if site.data.ui-text[site.locale].meta_label %}
           <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
@@ -58,14 +58,15 @@ layout: default
       {% if page.applause_button %}
         <!-- add the button! -->
         <applause-button 
+        color="#35a8ad"
           style="width: 58px; height: 58px;"
           url="{{ site.url }}{{ page.url }}" />
-        {% endif %}
-
+      {% endif %}
       {% include post_pagination.html %}
     </div>
 
     {% if jekyll.environment == 'production' and site.comments.provider and page.comments %}
+
       {% include comments.html %}
     {% endif %}
   </article>
