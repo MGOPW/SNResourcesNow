@@ -4,7 +4,7 @@ main:
   - title: "Posts"
     url: /posts/
 
-side: 
+side:
   - title: "START HERE"
     children:
       - title: "What this is"
