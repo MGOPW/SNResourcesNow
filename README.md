@@ -2,7 +2,7 @@
 
 <img src="https://user-images.githubusercontent.com/32275158/152443139-ec226b9f-1a26-4f6a-b272-4bfe1c4a1cd9.png" width=300 align=right>
 
-![GitHub last commit](https://img.shields.io/github/last-commit/mgopw/snresourcesnow?style=for-the-badge) ![GitHub contributors](https://img.shields.io/github/contributors/mgopw/snresourcesnow?style=for-the-badge)
+<img href="https://github.com/MGOPW/SNResourcesNow/pulls" src="https://img.shields.io/github/last-commit/mgopw/snresourcesnow?style=for-the-badge"> <img href="https://github.com/MGOPW/SNResourcesNow/graphs/contributors" src="https://img.shields.io/github/contributors/mgopw/snresourcesnow?style=for-the-badge"> <img href="https://invite.sndevs.com" src="https://img.shields.io/badge/slack-sndevs-630330?style=for-the-badge">
 
 # ResourcesNow
 > Because I can't organize my bookmarks
