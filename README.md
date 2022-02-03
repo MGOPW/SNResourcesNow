@@ -1,7 +1,15 @@
-[![](https://sourcerer.io/fame/MGOPW/MGOPW/SNResourcesNow/images/0)](https://sourcerer.io/fame/MGOPW/MGOPW/SNResourcesNow/links/0)[![](https://sourcerer.io/fame/MGOPW/MGOPW/SNResourcesNow/images/1)](https://sourcerer.io/fame/MGOPW/MGOPW/SNResourcesNow/links/1)[![](https://sourcerer.io/fame/MGOPW/MGOPW/SNResourcesNow/images/2)](https://sourcerer.io/fame/MGOPW/MGOPW/SNResourcesNow/links/2)[![](https://sourcerer.io/fame/MGOPW/MGOPW/SNResourcesNow/images/3)](https://sourcerer.io/fame/MGOPW/MGOPW/SNResourcesNow/links/3)[![](https://sourcerer.io/fame/MGOPW/MGOPW/SNResourcesNow/images/4)](https://sourcerer.io/fame/MGOPW/MGOPW/SNResourcesNow/links/4)[![](https://sourcerer.io/fame/MGOPW/MGOPW/SNResourcesNow/images/5)](https://sourcerer.io/fame/MGOPW/MGOPW/SNResourcesNow/links/5)[![](https://sourcerer.io/fame/MGOPW/MGOPW/SNResourcesNow/images/6)](https://sourcerer.io/fame/MGOPW/MGOPW/SNResourcesNow/links/6)[![](https://sourcerer.io/fame/MGOPW/MGOPW/SNResourcesNow/images/7)](https://sourcerer.io/fame/MGOPW/MGOPW/SNResourcesNow/links/7)
 <img src="https://user-images.githubusercontent.com/32275158/152443139-ec226b9f-1a26-4f6a-b272-4bfe1c4a1cd9.png" width=300 align=right>
-<a href="https://github.com/MGOPW/SNResourcesNow/pulls"><img src="https://img.shields.io/github/last-commit/mgopw/snresourcesnow?style=for-the-badge"></a> <a href="https://github.com/MGOPW/SNResourcesNow/graphs/contributors"><img src="https://img.shields.io/github/contributors/mgopw/snresourcesnow?style=for-the-badge"></a> <a href="https://invite.sndevs.com"><img src="https://img.shields.io/badge/slack-sndevs-630330?style=for-the-badge"></a>
+<a href="https://github.com/MGOPW/SNResourcesNow/pulls"><img src="https://img.shields.io/github/last-commit/mgopw/snresourcesnow?style=flat-square"></a> <a href="https://github.com/MGOPW/SNResourcesNow/graphs/contributors"><img src="https://img.shields.io/github/contributors/mgopw/snresourcesnow?style=flat-square"></a> <a href="https://invite.sndevs.com"><img src="https://img.shields.io/badge/slack-sndevs-630330?style=flat-square"></a>
 
+[![Pull Requests welcome](https://img.shields.io/badge/PRs-welcome-ff69b4.svg?style=flat-square)](https://github.com/mgopw/snresourcesnow/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22)
+[![code with love by mgopw](https://img.shields.io/badge/%3C%2F%3E%20with%20%E2%99%A5%20by-mgopw-ff1414.svg?style=flat-square)](https://github.com/mgopw)
+<div align="center">
+  <a href="https://github.com/mgopw/snresourcesnow/issues/new?assignees=&labels=bug&template=01_BUG_REPORT.md&title=bug%3A+">Report a Bug</a>
+  ·
+  <a href="https://github.com/mgopw/snresourcesnow/issues/new?assignees=&labels=enhancement&template=02_FEATURE_REQUEST.md&title=feat%3A+">Request a Feature</a>
+  .
+  <a href="https://github.com/mgopw/snresourcesnow/issues/new?assignees=&labels=question&template=04_SUPPORT_QUESTION.md&title=support%3A+">Ask a Question</a>
+</div>
 # ResourcesNow
 > Because I can't organize my bookmarks
 
@@ -15,21 +23,13 @@ What's all the bells and whistles this project can perform?
 * You can also do another thing
 * If you get really randy, you can even do this
 
+
 ## Contributing
 
-When you publish something open source, one of the greatest motivations is that
-anyone can just jump in and start contributing to your project.
+First off, thanks for taking the time to contribute! Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make will benefit everybody else and are **greatly appreciated**.
 
-These paragraphs are meant to welcome those kind souls to feel that they are
-needed. You should state something like:
 
-"If you'd like to contribute, please fork the repository and use a feature
-branch. Pull requests are warmly welcome."
-
-If there's anything else the developer needs to know (e.g. the code style
-guide), you should link it here. If there's a lot of things to take into
-consideration, it is common to separate this section to its own file called
-`CONTRIBUTING.md` (or similar). If so, you should say that it exists here.
+Please read [our contribution guidelines](docs/CONTRIBUTING.md), and thank you for being involved!
 
 ## Links
 
@@ -51,10 +51,8 @@ links to humans using your project. You can include links like:
 
  - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
 
-## Licensing
+## License
 
-One really important part: Give your project a proper license. Here you should
-state what the license is and how to find the text version of the license.
-Something like:
+This project is licensed under the **MIT license**.
 
-"The code in this project is licensed under MIT license."
+See [LICENSE](LICENSE) for more information.
