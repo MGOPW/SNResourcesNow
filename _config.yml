@@ -72,6 +72,11 @@ plugins:
   - jemoji
   - jekyll-include-cache
   - jekyll-tagories
+  - jekyll-action
+
+- name: Jekyll Actions
+  uses: helaili/jekyll-action@2.2.0
+
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
