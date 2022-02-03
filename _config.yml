@@ -242,7 +242,7 @@ comments:
   utterances:
     theme: "github-light" # "github-dark"
     issue_term: "pathname"
-    label: "comment" # Optional - must be existing label.
+    label: "💬Comment" # Optional - must be existing label.
 
 og_image: /assets/images/logo.png
 
@@ -251,7 +251,3 @@ analytics:
   google:
     tracking_id: "G-EJK7LDVCWX"
     anonymize_ip: false # default
-
-head_scripts:
-  - https://unpkg.com/applause-button/dist/applause-button.js
-  - https://unpkg.com/applause-button/dist/applause-button.css
