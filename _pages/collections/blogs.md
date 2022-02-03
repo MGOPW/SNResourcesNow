@@ -1,8 +1,7 @@
 ---
 title: Blogs
 layout: collection
-permalink: /blogs/main
+permalink: /blogs/
 collection: blogs
 classes: wide
-sort_by: title
 ---

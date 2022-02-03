@@ -1,33 +1,35 @@
 main:
-  - title: "Home"
-    url: /
   - title: "About"
     url: /about/
+  - title: "Posts"
+    url: /posts/
 
 side: 
-  - title: START HERE
+  - title: "START HERE"
     children:
       - title: "What this is"
-        url: /what
+        url: /what/
       - title: "How can I Contribute"
-        url: /contributing
-  - title: BLOGS
+        url: /how/
+      - title: "Who is behind this"
+        url: /who/
+  - title: "BLOGS"
     children:
       - title: "Main"
-        url: /blogs/main
-  - title: REPOS
+        url: /blogs/
+  - title: "REPOS"
     children:
       - title: "Main"
-        url: /repos/main
-  - title: OFFICIAL
+        url: /repos/
+  - title: "OFFICIAL"
     children:
       - title: "Main"
-        url: /official/main
+        url: /official/
       - title: "Academies"
-        url: /official/academies
+        url: /official/academies/
       - title: "Office Hours"
-        url: /official/office-hours
-  - title: MISC
+        url: /official/office-hours/
+  - title: "MISC"
     children:
       - title: "Main"
-        url: /misc/main
+        url: /misc/

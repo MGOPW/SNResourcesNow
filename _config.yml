@@ -71,6 +71,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-tagories
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
@@ -95,7 +96,7 @@ footer:
     - label: "Contribute"
       icon: "fas fa-file-alt"
       url: "https://github.com/MGOPW/SNResourcesNow"
-    - label: "SN Devs Slack"
+    - label: "snDevs Slack"
       icon: "fas fa-slack"
       url: "https://sndevs.com/"
 
@@ -121,71 +122,72 @@ defaults:
       excerpt: ""
       sidebar:
         nav: "side"
-  # _docs
-  - scope:
-      path: "_docs"
-      type: docs
-    values:
-      layout: single
-      read_time: false
-      author_profile: false
-      share: false
-      comments: false
-      sidebar:
-        nav: "side"
-      excerpt: ""
   # _blogs
   - scope:
-      path: "_blogs"
+      path: ""
       type: blogs
     values:
       layout: single
-      read_time: false
-      author_profile: false
-      share: false
-      comments: false
-      sidebar:
-        nav: "side"
-      excerpt: ""
-  # _misc
-  - scope:
-      path: "_misc"
-      type: misc
-    values:
-      layout: single
-      read_time: false
-      author_profile: false
-      share: false
-      comments: false
-      sidebar:
-        nav: "side"
-      excerpt: ""
-  # _official
-  - scope:
-      path: "_official"
-      type: official
-    values:
-      layout: single
-      read_time: false
-      author_profile: false
-      share: false
-      comments: false
-      sidebar:
-        nav: "side"
-      excerpt: ""
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
   # _repos
   - scope:
-      path: "_repos"
+      path: ""
       type: repos
     values:
       layout: single
-      read_time: false
-      author_profile: false
-      share: false
-      comments: false
-      sidebar:
-        nav: "side"
-      excerpt: ""
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _official
+  - scope:
+      path: ""
+      type: official
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _podcasts
+  - scope:
+      path: ""
+      type: podcasts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _people
+  - scope:
+      path: ""
+      type: people
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _misc
+  - scope:
+      path: ""
+      type: misc
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
 
 category_archive:
   type: liquid
@@ -194,22 +196,39 @@ tag_archive:
   type: liquid
   path: /tags/
   
+collections_dir: items
+
 collections:
-  docs:
-    output: true
-    permalink: /:collection/:path/
   blogs:
     output: true
     permalink: /:collection/:path/
   repos:
     output: true
     permalink: /:collection/:path/
+  official:
+    output: true
+    permalink: /:collection/:path/
+  podcasts:
+    output: true
+    permalink: /:collection/:path/ 
+  people:
+    output: true
+    permalink: /:collection/:path/
   misc:
     output: true
     permalink: /:collection/:path/
-  official:
-    output: true
-    permalink: /:collection/:path/ 
 
-    
-  
+comments:
+  provider: "utterances"
+  utterances:
+    theme: "github-light" # "github-dark"
+    issue_term: "pathname"
+    label: "comment" # Optional - must be existing label.
+
+og_image: /assets/images/logo.png
+
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-EJK7LDVCWX"
+    anonymize_ip: false # default
