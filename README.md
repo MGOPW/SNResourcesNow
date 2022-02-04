@@ -33,11 +33,12 @@ Please read [our contribution guidelines](docs/CONTRIBUTING.md), and thank you f
 
 ## Acknowledgements
 
+ - [Ashley Snyder](https://ashleysn.com) for the idea.
  - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
  - [Applause Button](https://github.com/ColinEberhardt/applause-button)
  - [Minimal Mistakes Template](https://github.com/mmistakes/minimal-mistakes)
  - [Amazing GitHub Template](https://github.com/dec0dOS/amazing-github-template)
- 
+
 ## License
 
 This project is licensed under the **MIT license**.
