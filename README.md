@@ -15,8 +15,7 @@
 # ResourcesNow
 > Because I can't organize my bookmarks
 
-A brief description of your project, what it is used for and how does life get
-awesome when someone starts to use it.
+An index of helpful ServiceNow resources with tags and categories to help you find what you need fast. Our goal is to curate an exhaustive list of community resources maintained by the community itself!
 
 ## Features
 
@@ -30,29 +29,15 @@ What's all the bells and whistles this project can perform?
 
 First off, thanks for taking the time to contribute! Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make will benefit everybody else and are **greatly appreciated**.
 
-
 Please read [our contribution guidelines](docs/CONTRIBUTING.md), and thank you for being involved!
-
-## Links
-
-Even though this information can be found inside the project on machine-readable
-format like in a .json file, it's good to include a summary of most useful
-links to humans using your project. You can include links like:
-
-- Project homepage: https://your.github.com/awesome-project/
-- Repository: https://github.com/your/awesome-project/
-- Issue tracker: https://github.com/your/awesome-project/issues
-  - In case of sensitive bugs like security vulnerabilities, please contact
-    my@email.com directly instead of using issue tracker. We value your effort
-    to improve the security and privacy of this project!
-- Related projects:
-  - Your other project: https://github.com/your/other-project/
-  - Someone else's project: https://github.com/someones/awesome-project/
 
 ## Acknowledgements
 
  - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
-
+ - [Applause Button](https://github.com/ColinEberhardt/applause-button)
+ - [Minimal Mistakes Template](https://github.com/mmistakes/minimal-mistakes)
+ - [Amazing GitHub Template](https://github.com/dec0dOS/amazing-github-template)
+ 
 ## License
 
 This project is licensed under the **MIT license**.

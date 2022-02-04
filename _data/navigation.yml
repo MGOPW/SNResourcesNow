@@ -1,9 +1,18 @@
 main:
-  - title: "About"
-    url: /about/
-  - title: "Posts"
-    url: /posts/
-
+  - title: "Home"
+    url: /
+  - title: "Blogs"
+    url: /blogs/
+  - title: "Repos"
+    url: /repos/
+  - title: "Podcasts"
+    url: /podcasts/
+  - title: "People"
+    url: /people/
+  - title: "OFFICIAL"
+    url: /official/
+  - title: "MISC"
+    url: /misc/
 side:
   - title: "START HERE"
     children:
@@ -21,6 +30,14 @@ side:
     children:
       - title: "Main"
         url: /repos/
+  - title: "Podcasts"
+    children:
+      - title: "Main"
+        url: /podcasts/
+  - title: "People"
+    children:
+      - title: "Main"
+        url: /people/
   - title: "OFFICIAL"
     children:
       - title: "Main"
