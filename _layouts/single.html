@@ -26,6 +26,9 @@ layout: default
     <div class="page__inner-wrap">
       {% unless page.header.overlay_color or page.header.overlay_image %}
         <header>
+          <link rel="stylesheet" href="https://unpkg.com/applause-button/dist/applause-button.css" />
+          <script src="https://unpkg.com/applause-button/dist/applause-button.js"></script>
+        
           {% if page.title %}<h1 id="page-title" class="page__title p-name" itemprop="headline"> 
             <a href="{{ page.url | absolute_url }}" class="u-url" itemprop="url">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</a></h1>{% endif %}  {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
 
@@ -43,7 +46,7 @@ layout: default
             </nav>
           </aside>
         {% endif %}
-        <div style="margin-left:75%; position: absolute; text-align:-webkit-center;">
+        <div>
           {% if page.applause_button %}
             <!-- add the button! -->
             <applause-button 
