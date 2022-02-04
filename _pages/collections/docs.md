@@ -1,7 +1,7 @@
 ---
 title: Docs
 layout: collection
-permalink: /docs/main/
+permalink: /docs/
 collection: docs
 classes: wide
 ---

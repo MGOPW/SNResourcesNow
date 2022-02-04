@@ -26,9 +26,10 @@ layout: default
     <div class="page__inner-wrap">
       {% unless page.header.overlay_color or page.header.overlay_image %}
         <header>
-          {% if page.title %}<h1 id="page-title" class="page__title p-name" itemprop="headline">
-            <a href="{{ page.url | absolute_url }}" class="u-url" itemprop="url">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</a>
-          </h1>{% endif %}
+          {% if page.title %}<h1 id="page-title" class="page__title p-name" itemprop="headline"> 
+            <a href="{{ page.url | absolute_url }}" class="u-url" itemprop="url">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</a></h1>{% endif %}  {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
+
+          {% if page.excerpt %}<p>{{ page.excerpt}} </p>{% endif %} 
           {% include page__meta.html %}
         </header>
       {% endunless %}
@@ -42,8 +43,18 @@ layout: default
             </nav>
           </aside>
         {% endif %}
+        <div style="margin-left:75%; position: absolute; text-align:-webkit-center;">
+          {% if page.applause_button %}
+            <!-- add the button! -->
+            <applause-button 
+            color="#35a8ad"
+              style="width: 58px; height: 58px;"
+              url="{{ site.url }}{{ page.url }}" />
+              <br><br><small><p>Was this 
+                content helpful?</p></small>
+  {% endif %}
+        </div>
         {{ content }}
-        {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
   
       <footer class="page__meta">
@@ -55,13 +66,7 @@ layout: default
       </footer>
 
       {% if page.share %}{% include social-share.html %}{% endif %}
-      {% if page.applause_button %}
-        <!-- add the button! -->
-        <applause-button 
-        color="#35a8ad"
-          style="width: 58px; height: 58px;"
-          url="{{ site.url }}{{ page.url }}" />
-      {% endif %}
+      
       {% include post_pagination.html %}
     </div>
 

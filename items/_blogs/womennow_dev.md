@@ -1,14 +1,15 @@
 ---
 title: "WomenNow"
-excerpt: "WomenNow. It's in the name."
+excerpt: "WELL-BEHAVED WOMEN SELDOM MAKE HISTORY."
 tags:
   - BIPOC
-  - Female Identifying
+  - Neurodivergent
+  - Nonbinary
   - Women
   - LGBTQIA+
 categories:
   - Blog
+link: "https://womennow.dev"
+classes: wide
 ---
-
-this is some stuf fr fr
-https://womennow.dev
+this is some stuf fr 

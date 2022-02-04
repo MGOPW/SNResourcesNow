@@ -4,7 +4,7 @@
 @charset "utf-8";
 
 // applause-button
-applause-button {position:relative;cursor:pointer;margin-left:85%;}
+applause-button {position:relative;cursor:pointer;}
 applause-button .style-root{position:absolute;top:0;left:0;right:0;bottom:0}
 applause-button .style-root:after{position:absolute;top:0;left:0;right:0;bottom:0;content:" ";display:block;border-radius:50%;border:1px solid}
 applause-button .style-root:hover:after:not(.clap-limit-exceeded){border-color:inherit}

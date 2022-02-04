@@ -19,11 +19,14 @@ An index of helpful ServiceNow resources with tags and categories to help you fi
 
 ## Features
 
-What's all the bells and whistles this project can perform?
-* What's the main functionality
-* You can also do another thing
-* If you get really randy, you can even do this
-
+Content we feature:
+* Blogs
+* GitHub Repositories
+* Official Servicenow Resources
+* Podcasts
+* Notable People 
+* Miscellaneous
+* Posts
 
 ## Contributing
 
@@ -38,6 +41,7 @@ Please read [our contribution guidelines](docs/CONTRIBUTING.md), and thank you f
  - [Applause Button](https://github.com/ColinEberhardt/applause-button)
  - [Minimal Mistakes Template](https://github.com/mmistakes/minimal-mistakes)
  - [Amazing GitHub Template](https://github.com/dec0dOS/amazing-github-template)
+ - Many thanks to my Sassy Queer Friend, without whom i would have surely been canceled by now.
 
 ## License
 

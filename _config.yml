@@ -116,6 +116,8 @@ defaults:
       sidebar:
         nav: "side"
       applause_button: true
+      classes: wide
+
   # _pages
   - scope:
       path: "_pages"
@@ -129,6 +131,8 @@ defaults:
       sidebar:
         nav: "side"
       applause_button: false
+      classes: wide
+
   # _blogs
   - scope:
       path: "_blogs"
@@ -142,6 +146,8 @@ defaults:
       sidebar:
         nav: "side"
       applause_button: true
+      classes: wide
+
   # _repos
   - scope:
       path: "_repos"
@@ -155,6 +161,8 @@ defaults:
       sidebar:
         nav: "side"
       applause_button: true
+      classes: wide
+
   # _official
   - scope:
       path: "_official"
@@ -168,6 +176,8 @@ defaults:
       sidebar:
         nav: "side"
       applause_button: true
+      classes: wide
+
   # _podcasts
   - scope:
       path: "_podcasts"
@@ -181,6 +191,8 @@ defaults:
       sidebar:
         nav: "side"
       applause_button: true
+      classes: wide
+
   # _people
   - scope:
       path: "_people"
@@ -194,6 +206,8 @@ defaults:
       sidebar:
         nav: "side"
       applause_button: true
+      classes: wide
+
   # _misc
   - scope:
       path: "_misc"
@@ -207,6 +221,7 @@ defaults:
       sidebar:
         nav: "side"
       applause_button: true
+      classes: wide
 
 category_archive:
   type: liquid
