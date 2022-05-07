@@ -1,23 +1,8 @@
 # Contributing
 
 When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with the owners of this repository before making a change.
+
 Please note we have a [code of conduct](CODE_OF_CONDUCT.md), please follow it in all your interactions with the project.
-
-## Development environment setup
-
-> **[?]**
-> Proceed to describe how to setup local development environment.
-> e.g:
-
-To set up a development environment, please follow these steps:
-
-1. Clone the repo
-
-   ```sh
-   git clone https://github.com/mgopw/snresourcesnow
-   ```
-
-2. TODO
 
 ## Issues and feature requests
 
