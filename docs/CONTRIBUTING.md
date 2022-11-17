@@ -4,6 +4,10 @@ When contributing to this repository, please first discuss the change you wish t
 
 Please note we have a [code of conduct](CODE_OF_CONDUCT.md), please follow it in all your interactions with the project.
 
+## Contributing Resource Links
+
+If you want to contribute resources to be linked to here, [please use this form](https://forms.gle/7LagnbT9GRFAEBvJ9). I will do my best to keep the site updated with new things as they are submitted, and I will work for a better automatic way for the new resources to be added as they are approved in the future.
+
 ## Issues and feature requests
 
 You've found a bug in the source code, a mistake in the documentation or maybe you'd like a new feature? You can help us by [submitting an issue on GitHub](https://github.com/mgopw/snresourcesnow/issues). Before you create an issue, make sure to search the issue archive -- your issue may have already been addressed!
