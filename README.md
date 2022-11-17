@@ -5,14 +5,16 @@
 [![Pull Requests welcome](https://img.shields.io/badge/PRs-welcome-ff69b4.svg?style=flat-square)](https://github.com/mgopw/snresourcesnow/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22)
 [![code with love by mgopw](https://img.shields.io/badge/%3C%2F%3E%20with%20%E2%99%A5%20by-mgopw-ff1414.svg?style=flat-square)](https://github.com/mgopw)
 
-  <a href="https://github.com/mgopw/snresourcesnow/issues/new?assignees=&labels=bug&template=01_BUG_REPORT.md&title=bug%3A+">Report a Bug</a>
-  ·
-  <a href="https://github.com/mgopw/snresourcesnow/issues/new?assignees=&labels=enhancement&template=02_FEATURE_REQUEST.md&title=feat%3A+">Request a Feature</a>
-  .
-  <a href="https://github.com/mgopw/snresourcesnow/issues/new?assignees=&labels=question&template=04_SUPPORT_QUESTION.md&title=support%3A+">Ask a Question</a>
+<a href="https://github.com/mgopw/snresourcesnow/issues/new?assignees=&labels=bug&template=01_BUG_REPORT.md&title=bug%3A+">Report a Bug</a>
+·
+<a href="https://github.com/mgopw/snresourcesnow/issues/new?assignees=&labels=enhancement&template=02_FEATURE_REQUEST.md&title=feat%3A+">Request a Feature</a>
+.
+<a href="https://github.com/mgopw/snresourcesnow/issues/new?assignees=&labels=question&template=04_SUPPORT_QUESTION.md&title=support%3A+">Ask a Question</a>
+
 </div>
 
 # ResourcesNow
+
 > Because I can't organize my bookmarks
 
 An index of helpful ServiceNow resources with tags and categories to help you find what you need fast. Our goal is to curate an exhaustive list of community resources maintained by the community itself!
@@ -20,13 +22,14 @@ An index of helpful ServiceNow resources with tags and categories to help you fi
 ## Features
 
 Content we feature:
-* Blogs
-* GitHub Repositories
-* Official Servicenow Resources
-* Podcasts
-* Notable People 
-* Miscellaneous
-* Posts
+
+- Blogs
+- GitHub Repositories
+- Official Servicenow Resources
+- Podcasts
+- Notable People
+- Miscellaneous
+- Posts
 
 ## Contributing
 
@@ -36,12 +39,12 @@ Please read [our contribution guidelines](docs/CONTRIBUTING.md), and thank you f
 
 ## Acknowledgements
 
- - [Ashley Snyder](https://ashleysn.com) for the idea.
- - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
- - [Applause Button](https://github.com/ColinEberhardt/applause-button)
- - [Minimal Mistakes Template](https://github.com/mmistakes/minimal-mistakes)
- - [Amazing GitHub Template](https://github.com/dec0dOS/amazing-github-template)
- - Many thanks to my Sassy Queer Friend, without whom i would have surely been canceled by now.
+- Ashley Snyder for the idea.
+- [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
+- [Applause Button](https://github.com/ColinEberhardt/applause-button)
+- [Minimal Mistakes Template](https://github.com/mmistakes/minimal-mistakes)
+- [Amazing GitHub Template](https://github.com/dec0dOS/amazing-github-template)
+- Many thanks to my Sassy Queer Friend, without whom i would have surely been canceled by now.
 
 ## License
 
