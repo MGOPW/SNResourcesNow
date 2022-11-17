@@ -17,9 +17,9 @@ side:
   - title: "START HERE"
     children:
       - title: "What this is"
-        url: /what/
+        url: https://github.com/MGOPW/SNResourcesNow
       - title: "How can I Contribute"
-        url: /how/
+        url: https://github.com/MGOPW/SNResourcesNow/blob/master/docs/CONTRIBUTING.md
       - title: "Who is behind this"
         url: /who/
   - title: "BLOGS"
