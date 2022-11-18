@@ -11,6 +11,7 @@ categories:
   - Blog
 link: "https://womennow.dev"
 classes: wide
+logo: "https://pbs.twimg.com/profile_images/1501013234639384579/ZtX89i6c_normal.jpg"
 ---
 WomenNow was founded by Paige Duffey and Maria Gabriela Waechter. Together they have over fourteen years of experience with ServiceNow and over fifty years experience being a woman, so you can bet they know what they are talking about.
 
