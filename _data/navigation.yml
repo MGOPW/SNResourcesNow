@@ -1,3 +1,4 @@
+# This controls the top header
 main:
   - title: "Home"
     url: /
@@ -9,10 +10,12 @@ main:
     url: /podcasts/
   - title: "People"
     url: /people/
-  - title: "OFFICIAL"
+  - title: "Official"
     url: /official/
-  - title: "MISC"
+  - title: "Misc"
     url: /misc/
+
+# This controls the left side navigation menu
 side:
   - title: "START HERE"
     children:
@@ -38,7 +41,11 @@ side:
     children:
       - title: "Main"
         url: /people/
-  - title: "OFFICIAL"
+  - title: "Videos"
+    children:
+      - title: "Main"
+        url: /videos/
+  - title: "Official"
     children:
       - title: "Main"
         url: /official/
@@ -46,7 +53,7 @@ side:
         url: /official/academies/
       - title: "Office Hours"
         url: /official/office-hours/
-  - title: "MISC"
+  - title: "Misc"
     children:
       - title: "Main"
         url: /misc/
