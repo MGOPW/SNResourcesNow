@@ -1,19 +1,9 @@
 # This controls the top header
 main:
-  - title: "Home"
-    url: /
-  - title: "Blogs"
-    url: /blogs/
-  - title: "Repos"
-    url: /repos/
-  - title: "Podcasts"
-    url: /podcasts/
-  - title: "People"
-    url: /people/
-  - title: "Official"
-    url: /official/
-  - title: "Misc"
-    url: /misc/
+  - title: "WomenNow"
+    url: https://womennow.dev
+  - title: "SNDevs"
+    url: https://sndevs.com
 
 # This controls the left side navigation menu
 side:
