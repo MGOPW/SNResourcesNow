@@ -82,16 +82,16 @@ whitelist:
   - jemoji
   - jekyll-include-cache
 author:
-  name   : "MGOPW"
-  avatar : "/assets/images/mgopw.png"
-  bio    : "She/Her || 2021 ServiceNow Developer MVP."
+  name: "MGOPW"
+  avatar: "/assets/images/mgopw.png"
+  bio: "She/Her || 2021 ServiceNow Developer MVP."
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/mgopw"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter"
-      url: "https://twitter.com/theRealMGOPW"  
+      url: "https://twitter.com/theRealMGOPW"
 footer:
   links:
     - label: "Contribute"
@@ -223,13 +223,29 @@ defaults:
       applause_button: true
       classes: wide
 
+  # _videos
+  - scope:
+      path: "_videos"
+      type: videos
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      comments: true
+      share: true
+      related: false
+      sidebar:
+        nav: "side"
+      applause_button: true
+      classes: wide
+
 category_archive:
   type: liquid
   path: /categories/
 tag_archive:
   type: liquid
   path: /tags/
-  
+
 collections_dir: items
 
 collections:
@@ -244,7 +260,7 @@ collections:
     permalink: /:collection/:path/
   podcasts:
     output: true
-    permalink: /:collection/:path/ 
+    permalink: /:collection/:path/
   people:
     output: true
     permalink: /:collection/:path/
