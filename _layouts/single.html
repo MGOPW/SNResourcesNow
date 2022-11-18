@@ -49,15 +49,14 @@ layout: default
 
         {% if page.excerpt %}<p style="grid-row: 3;">{{ page.excerpt}} </p>{% endif %}
 
-        {% if page.applause_button %} <div style="grid-row: 3;">
+        {% if page.applause_button %} <div style="grid-row: 2;">
 
           <applause-button color="#35a8ad" style="width: 58px; height: 58px;" url="{{ site.url }}{{ page.url }}" />
-          <br /><br />
-          <small>
-            <p>Was this content helpful?</p>
-          </small>
+
         </div>
-        
+        <small style="grid-row:3; text-align:right">
+          <p>Was this content helpful?</p>
+        </small>
         {% endif %}
 
         {% include page__meta.html %}
