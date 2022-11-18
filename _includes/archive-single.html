@@ -18,7 +18,7 @@
     </div>
     {% endif %}
     <h2 class="archive__item-title no_toc" itemprop="headline">
-      <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}{% if post.logo %}<img src="{{post.logo}}"/>{% endif %}</a>
+      <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}{% if post.logo %}<img src="{{post.logo}}" style="padding-left: 0.25em;"/>{% endif %}</a>
     </h2>
     {% include page__meta.html type=include.type %}
     {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify |
